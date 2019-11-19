@@ -27,7 +27,7 @@ public class Pedido {
 		return idPedido;
 	}
 
-	public void GetIdPedido(int idPedido) {
+	public void SetIdPedido(int idPedido) {
 		this.idPedido = idPedido;
 	}
 
@@ -35,7 +35,7 @@ public class Pedido {
 		return nombre;
 	}
 
-	public void GetNombre(String nombre) {
+	public void SetNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
@@ -43,7 +43,7 @@ public class Pedido {
 		return monto;
 	}
 
-	public void GetMonto(int monto) {
+	public void SetMonto(int monto) {
 		this.monto = monto;
 	}
 
